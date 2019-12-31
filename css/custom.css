@@ -202,3 +202,26 @@
     margin-right: 8px;
   }
 }
+
+.p-0 {
+  padding: 0;
+}
+
+@media all and (max-width: 767px) {
+  #venue .image-with-text {
+    padding-top: 0;
+  }
+
+  #venue .background-image-holder {
+    position: relative;
+    height: 400px;
+  }
+
+  #venue .side-image {
+    position: relative;
+  }
+
+  .image-with-text .vertical-align {
+    padding-top: 30px;
+  }
+}
